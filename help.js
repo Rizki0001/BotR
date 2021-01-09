@@ -1,13 +1,14 @@
 
 const help = (prefix) => { 
 	return `                 
-┏━━❉ *About Bot* ❉━━┓
+┏━━❉ *Tentang Bot* ❉━━┓
 ┣⊱ *${prefix}owner*
 ┣⊱ *${prefix}donasi*
 ┣⊱ *${prefix}info*
 ┣⊱ *${prefix}botstat*
 ┣⊱ *${prefix}bug*
 ┣━━❀ *New Fitur* ❀━━
+┣⊱ Kosong Dulu
 ┣⊱ *${prefix}nulis*
 ┣⊱ *${prefix}jadibot*
 ┣━━❀ *Maker* ❀━━
@@ -70,11 +71,12 @@ const help = (prefix) => {
 ┣━━❀ *Group* ❀━━
 ┣⊱ *${prefix}linkgc*
 ┣⊱ *${prefix}tagall*
+┣⊱ <Update> akan segera datang
 ┣⊱ *${prefix}add* [+62xx]
 ┣⊱ *${prefix}group* [buka/tutup]
 ┣⊱ *${prefix}demote* [tag]
 ┣⊱ *${prefix}promote* [tag]
-┣⊱ *${prefix}kick*
+┣⊱ *${prefix}kick* [tag]
 ┣⊱ *${prefix}listadmin*
 ┣⊱ *${prefix}simih* [1/0]
 ┣⊱ *${prefix}nsfw* [1/0]
@@ -88,7 +90,7 @@ const help = (prefix) => {
 ┣⊱ *${prefix}setpp*
 ┣⊱ *${prefix}setprefix*
 ┣━━━━━━━━━━━━━━
-┃    *BOT BY RIZKIBOT*
+┃*BOT BY RIZKIBOT*
 ┗━━━━━━━━━━━━━━
 
 `
