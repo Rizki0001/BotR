@@ -6,7 +6,7 @@ const help = (prefix) => {
 ┣⊱ *${prefix}info*
 ┣⊱ *${prefix}botstat*
 ┣⊱ *${prefix}bug*
-┣━━❀ *Fitur baru* ❀━━
+┣━━❀ *New Fitur* ❀━━
 ┣⊱ *${prefix}nulis*
 ┣⊱ *${prefix}jadibot*
 ┣━━❀ *Maker* ❀━━
