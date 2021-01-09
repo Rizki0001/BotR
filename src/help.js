@@ -7,6 +7,7 @@ const help = (prefix) => {
 ┣⊱ *${prefix}botstat*
 ┣⊱ *${prefix}bug*
 ┣━━❀ *New Fitur* ❀━━
+┣⊱  Kosong Dulu
 ┣⊱ *${prefix}nulis*
 ┣⊱ *${prefix}jadibot*
 ┣━━❀ *Maker* ❀━━
@@ -69,6 +70,7 @@ const help = (prefix) => {
 ┣━━❀ *Group* ❀━━
 ┣⊱ *${prefix}linkgc*
 ┣⊱ *${prefix}tagall*
+┣⊱ <Update> akan segera datang
 ┣⊱ *${prefix}add* [+62xx]
 ┣⊱ *${prefix}group* [buka/tutup]
 ┣⊱ *${prefix}demote* [tag]
@@ -87,7 +89,7 @@ const help = (prefix) => {
 ┣⊱ *${prefix}setpp*
 ┣⊱ *${prefix}setprefix*
 ┣━━━━━━━━━━━━━━
-┃    *BOT BY RIZKIBOT*
+┃*BOT BY RIZKIBOT*
 ┗━━━━━━━━━━━━━━
 
 `
