@@ -1052,6 +1052,7 @@ client.on('group-participants-update', async (anu) => {
 			
 		}
 		
+		
 
 					
 
@@ -1068,25 +1069,4 @@ client.on('group-participants-update', async (anu) => {
 
 		
 		
-	}case 'galaxtext':
-
-					if (args.length < 1) return reply('mau apa om')
-
-					teks = body.slice(12)
-
-					if (teks.length > 8) return reply('Teksnya kepanjangan, maksimal 8 karakter')
-
-					reply(mess.wait)
-
-					buffer = await getBuffer(`https://api.vhtear.com/galaxytext?text=${teks}&apikey=ANTIGRATISNIHANJENKKK`)
-
-					client.sendMessage(from, buffer, image, {quoted: mek})
-
-					break
-
-        }
 	
-      
-
-       
-
