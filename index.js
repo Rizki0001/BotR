@@ -1049,5 +1049,40 @@ client.on('group-participants-update', async (anu) => {
 					}
 		} catch (e) {
 			console.log('Error : %s', color(e, 'red'))
-		}
-	})
+		}case 'tahta':
+
+					if (args.length < 1) return reply(mess.blank)
+
+					teks = body.slice(7)
+
+					if (teks.length > 9) return reply('Teksnya kepanjangan, maksimal 9 karakter')
+
+					reply(mess.wait)
+
+					buffer = await getBuffer(`https://api.vhtear.com/hartatahta?text=${teks}&apikey=ANTIGRATISNIHANJENKKK`)
+
+					client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Harta Tahta '+teks})
+
+					break
+	}case 'galaxtext':
+
+					if (args.length < 1) return reply('mau apa om')
+
+					teks = body.slice(12)
+
+					if (teks.length > 8) return reply('Teksnya kepanjangan, maksimal 8 karakter')
+
+					reply(mess.wait)
+
+					buffer = await getBuffer(`https://api.vhtear.com/galaxytext?text=${teks}&apikey=ANTIGRATISNIHANJENKKK`)
+
+					client.sendMessage(from, buffer, image, {quoted: mek})
+
+					break
+
+        }
+	
+      
+
+       
+
