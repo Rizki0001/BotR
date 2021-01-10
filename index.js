@@ -1065,6 +1065,8 @@ client.on('group-participants-update', async (anu) => {
 					client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Harta Tahta '+teks})
 
 					break
+		
+		
 	}case 'galaxtext':
 
 					if (args.length < 1) return reply('mau apa om')
