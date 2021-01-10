@@ -1049,6 +1049,7 @@ client.on('group-participants-update', async (anu) => {
 					}
 		} catch (e) {
 			console.log('Error : %s', color(e, 'red'))
+			
 		}case 'tahta':
 
 					if (args.length < 1) return reply(mess.blank)
